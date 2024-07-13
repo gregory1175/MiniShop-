@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    margin: 16px;
+    min-height: 50vh;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.title {
+font-weight: 600;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 8px;
+}
+
+.text {
+font-family: inherit;
+}

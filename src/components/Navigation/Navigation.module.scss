@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid black;
+    padding: 0px 16px; 
+    height: 50px;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    gap: 16px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        color: brown;
+    }
+}

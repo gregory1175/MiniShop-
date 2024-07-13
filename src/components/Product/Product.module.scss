@@ -1,0 +1,45 @@
+// Product.module.scss
+
+.main_div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px;
+    gap: 16px;
+    width: 20vw;
+    height: 350px;  
+    border: 1px solid black;
+    margin: 16px;
+}
+
+.image_container {
+    width:150px;
+    height: 150px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 150px; 
+    height: 150px; 
+}
+
+.button_open {
+    font-weight: 16px;
+    background-color: rgb(176, 162, 0);
+    border: black solid 2px;
+}
+
+.button_close {
+    font-weight: 16px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: black solid 2px;
+}
+.details {
+    overflow-y: auto; // вертикальный скроллбар, если текст не помещается
+    max-height: calc(100% - 200px); // максимальная высота для блока с деталями
+}
